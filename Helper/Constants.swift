@@ -15,7 +15,7 @@ let RIGHT_ANGLE = Double.pi/2
 let FIT_SCALE = 0.7
 let REFIT_SCALE = 1/FIT_SCALE
 
-let BOUND_VIEW = Boundary(0, HEIGHT, 0, WIDTH)
+var BOUND_VIEW = Boundary(0, 0, 0, 0)
 let BOUND_TOP = Boundary(33, 130, 18, 362)
 let BOUND_TOP_LEFT = Boundary(130.1, 306, 18, 188.5)
 let BOUND_TOP_RIGHT = Boundary(130.1, 306, 188.6, 362)

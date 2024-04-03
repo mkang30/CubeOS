@@ -25,7 +25,7 @@ struct AboutView: View {
             Spacer()
             
             NavigationLink (
-              destination: HomeScreenView(scene: CubeScene(width: proxy.size.width, height: proxy.size.height), camera: HomeScreenView.createCameraNode(width: proxy.size.width))
+              destination: HomeScreenView(scene: CubeScene(width: proxy.size.width, height: proxy.size.height), camera: HomeScreenView.createCameraNode(width: proxy.size.width, height: proxy.size.height))
                 .navigationBarBackButtonHidden(true),
               label: {
                 

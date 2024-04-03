@@ -19,7 +19,8 @@ struct HomeScreenView: View {
   
   /// Sets up a camera node and returrns
   /// - Returns: camera node
-  static func createCameraNode(width: CGFloat) -> SCNNode {
+  static func createCameraNode(width: CGFloat, height: CGFloat) -> SCNNode {
+    BOUND_VIEW = Boundary(0, height, 0, width)
     let cameraNode = SCNNode()
     cameraNode.position = SCNVector3(0,10.15,10.4*width/390)
     cameraNode.eulerAngles = SCNVector3(0,0,0)
