@@ -12,5 +12,5 @@ I use SPM (Swift Package Manager). Use Xcode or Swift Playground for preview and
 
 ## Apple Swift Student Challenge WWDC2024
 
-![alt text](https://github.com/mkang30/CubeOS/blob/main/wwdc.gif?raw=true)
+![alt text](https://github.com/mkang30/CubeOS/blob/main/wwdc.jpg?raw=true)
 
